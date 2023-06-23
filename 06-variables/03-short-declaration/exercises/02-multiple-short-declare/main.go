@@ -7,7 +7,7 @@
 // Follow me on twitter: https://twitter.com/inancgumus
 
 package main
-
+import "fmt"
 // ---------------------------------------------------------
 // EXERCISE: Multiple Short Declare
 //
@@ -18,10 +18,6 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// ADD YOUR DECLARATIONS HERE
-	//
-
-	// THEN UNCOMMENT THE CODE BELOW
-
-	// fmt.Println(a, b)
+  a, b := 14, true
+	fmt.Println(a, b)
 }

@@ -7,7 +7,7 @@
 // Follow me on twitter: https://twitter.com/inancgumus
 
 package main
-
+import "fmt"
 // ---------------------------------------------------------
 // EXERCISE: Redeclare
 //
@@ -26,10 +26,11 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// ADD YOUR DECLARATIONS HERE
-	//
+  age, yourAge := 30, 20
+  
+  ratio := 3.14
 
-	// THEN UNCOMMENT THE CODE BELOW
+  age = 42
 
-	// fmt.Println(age, yourAge, ratio)
+	fmt.Println(age, yourAge, ratio)
 }
