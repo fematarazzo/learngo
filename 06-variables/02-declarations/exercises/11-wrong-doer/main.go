@@ -7,7 +7,7 @@
 // Follow me on twitter: https://twitter.com/inancgumus
 
 package main
-
+import "fmt"
 // ---------------------------------------------------------
 // EXERCISE: Wrong doer
 //
@@ -20,9 +20,7 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// First print it:
-	// fmt.Println(?)
+	fmt.Println(isLiquid)
 
-	// Then declare it:
-	// var ? ?
+	var isLiquid bool
 }

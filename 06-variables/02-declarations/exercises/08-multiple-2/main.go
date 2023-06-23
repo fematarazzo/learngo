@@ -7,7 +7,7 @@
 // Follow me on twitter: https://twitter.com/inancgumus
 
 package main
-
+import "fmt"
 // ---------------------------------------------------------
 // EXERCISE: Multiple #2
 //
@@ -26,11 +26,6 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// ADD YOUR DECLARATION HERE
-	//
-
-	// REPLACE THE QUESTION-MARKS BELOW
-	// WITH THE NAME OF YOUR VARIABLES
-
-	// fmt.Printf("%q %q\n", ?, ?)
+  var firstName, lastName string = "", ""
+	fmt.Printf("%q %q\n", firstName, lastName)
 }
