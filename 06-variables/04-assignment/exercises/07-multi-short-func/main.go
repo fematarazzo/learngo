@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Multi Short Func
 //
@@ -30,10 +32,12 @@ package main
 func main() {
 	// ADD YOUR DECLARATIONS HERE
 	//
+  _, b := multi()
+  fmt.Println(b)
 
 	// THEN UNCOMMENT THE CODE BELOW
 
-	// fmt.Println(b)
+	fmt.Println(b)
 }
 
 // multi is a function that returns multiple int values
